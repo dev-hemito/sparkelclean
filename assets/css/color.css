@@ -111,13 +111,11 @@ a {
     color: #2596be;
 }
   
-.service-block-one .icon {
+.icon {
     color: #2596be;
 }
 
-.service-block-one .icon:before {
-    background-color: #2596be;
-}
+
 
 .service-block-one h4 a:hover {
     color: #2596be;
