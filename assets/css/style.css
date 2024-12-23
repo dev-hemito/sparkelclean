@@ -107,11 +107,14 @@ button {
 }
 
 .text {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
     font-weight: 400;
     color: #808080;
     margin: 0px 0px 15px;
+}
+.breadcrumb{
+    background-color: white;
 }
 
 ::-webkit-input-placeholder {
@@ -378,7 +381,7 @@ img {
 .scroll-to-top {
     position: fixed;
     right: 50px;
-    bottom: 110px;
+    bottom: 10px;
     width: 65px;
     height: 65px;
     font-size: 18px;
