@@ -201,109 +201,156 @@
             </div>
         </div>
 
-        <!-- Testimonial Section Two -->
-        <div class=" testimonials-section p-2">
-            <div class="sec-title text-center">
-                <div class="sub-title">Testimonials</div>
-                <h2>Customer Reviews</h2>
+        <style>
+            .testimonials-section {
+                padding: 60px 0;
+                background: #f8f9fa;
+            }
+            .sec-title {
+                margin-bottom: 40px;
+            }
+            .sub-title {
+                color: #666;
+                margin-bottom: 10px;
+                font-size: 18px;
+            }
+            .carousel-inner .card {
+                border: none;
+                margin: 20px 40px;
+                background: white;
+            }
+            .carousel-control-prev, .carousel-control-next {
+                width: 40px;
+                height: 40px;
+                background: #007bff;
+                border-radius: 50%;
+                top: 50%;
+                transform: translateY(-50%);
+                opacity: 1;
+            }
+            .carousel-control-prev {
+                left: 0;
+            }
+            .carousel-control-next {
+                right: 0;
+            }
+            .carousel-indicators {
+                bottom: -50px;
+            }
+            .carousel-indicators [data-bs-target] {
+                background-color: #007bff;
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+            }
+            .fa-check-circle {
+                color: #28a745;
+                margin-right: 10px;
+            }
+        </style>
+
+<div class="testimonials-section">
+    <div class="sec-title text-center">
+        <div class="sub-title">Testimonials</div>
+        <h2>Customer Reviews</h2>
+    </div>
+    <div class="container">
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3"></button>
             </div>
-            <div class="container">
-                <div class="row justify-content-center " style="gap: 20px;">
-                    <div class="col-12 card shadow-lg rounded-lg">
+            <div class="carousel-inner">
+                <!-- First Testimonial -->
+                <div class="carousel-item active">
+                    <div class="card shadow-lg rounded-lg">
                         <div class="card-body">
                             <div class="card-text">
-
-                                <p class="text-muted">We are Relancer, one of the leading uPVC Manufacturers in South
-                                    India.
-                                    We are happy to recommend M/S. Sparkle Clean and Monish P M for any of your cleaning
-                                    service requirements for the following reasons:</p>
-
+                                <p class="text-muted">We are Relancer, one of the leading uPVC Manufacturers in South India. We are happy to recommend M/S. Sparkle Clean and Monish P M for any of your cleaning service requirements for the following reasons:</p>
                                 <ul class="list-unstyled pl-3">
-                                    <li><i class="fas fa-check-circle"></i> M/S. Sparkle Clean is strongly recommended
-                                        for
-                                        their customer handling tactics.</li>
-                                    <li><i class="fas fa-check-circle"></i> We are satisfied with the services of M/S.
-                                        Sparkle Clean.</li>
-                                    <li><i class="fas fa-check-circle"></i> We are highly impressed with the follow-up
-                                        strategy of M/S. Sparkle Clean.</li>
+                                    <li><i class="fas fa-check-circle"></i> M/S. Sparkle Clean is strongly recommended for their customer handling tactics.</li>
+                                    <li><i class="fas fa-check-circle"></i> We are satisfied with the services of M/S. Sparkle Clean.</li>
+                                    <li><i class="fas fa-check-circle"></i> We are highly impressed with the follow-up strategy of M/S. Sparkle Clean.</li>
                                 </ul>
-
                                 <p class="mt-4">We wish M/S. Sparkle Clean all success in the future.</p>
-
-                                <div class="text-right">
+                                <div class="text-end">
                                     <h5 class="card-title">Joseph Kannikadan</h5>
                                     <p><small><i>Managing Director</i></small></p>
-                                    <p><small>RELANCER 14/277CB-20, Kannankeri Nagar, Seaport Airport Road,
-                                            Chittethukara</small></p>
+                                    <p><small>RELANCER</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 card shadow-lg rounded-lg">
+                </div>
+
+                <!-- Second Testimonial -->
+                <div class="carousel-item">
+                    <div class="card shadow-lg rounded-lg">
                         <div class="card-body">
                             <div class="card-text">
-
-                                <p class="text-muted">We have availed the service of Mr. monish from Sparkle clean
-                                    company Mr
-                                    monish analysed the requirement and arranged the staffs accordingly. The work was
-                                    undertaken very promptly and beautifully. I recommend Mr.Monish for any of your
-                                    cleaning
-                                    requirements. Thank You MONISH </p>
-
-
-
-                                <div class="text-right">
-                                    <h5 class="card-title">Dr.Akhila.Vinod </h5>
+                                <p class="text-muted">We have availed the service of Mr. monish from Sparkle clean company Mr monish analysed the requirement and arranged the staffs accordingly. The work was undertaken very promptly and beautifully. I recommend Mr.Monish for any of your cleaning requirements. Thank You MONISH</p>
+                                <div class="text-end">
+                                    <h5 class="card-title">Dr.Akhila.Vinod</h5>
                                     <p><small>Yogashram Palarivattom</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 card shadow-lg rounded-lg">
+                </div>
+
+                <!-- Third Testimonial -->
+                <div class="carousel-item">
+                    <div class="card shadow-lg rounded-lg">
                         <div class="card-body">
                             <div class="card-text">
-
-                                <p class="text-muted">I Dr Jini Deepu Dental Surgeon from Truedent Speciality Dental
-                                    Clinic. We do all services related to dentistry. I recently hired Mr. Monish Spark
-                                    Clean Services to perform a deep cleaning in my friends flat. The flat looked
-                                    immaculate after their service and my friend was delighted. I highly recommend Mr.
-                                    Monish Spark Clean Services to anyone. Thank you. </p>
-
-
-
-                                <div class="text-right">
-                                    <h5 class="card-title">Dr Jini Deepu </h5>
+                                <p class="text-muted">I Dr Jini Deepu Dental Surgeon from Truedent Speciality Dental Clinic. We do all services related to dentistry. I recently hired Mr. Monish Spark Clean Services to perform a deep cleaning in my friends flat. The flat looked immaculate after their service and my friend was delighted. I highly recommend Mr. Monish Spark Clean Services to anyone. Thank you.</p>
+                                <div class="text-end">
+                                    <h5 class="card-title">Dr Jini Deepu</h5>
                                     <p><small><i>Dental Surgeon</i></small></p>
-                                    <p><small>Truedent Speciality Dental
-                                            Clinic</small></p>
+                                    <p><small>Truedent Speciality Dental Clinic</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 card shadow-lg rounded-lg">
+                </div>
+
+                <!-- Fourth Testimonial -->
+                <div class="carousel-item">
+                    <div class="card shadow-lg rounded-lg">
                         <div class="card-body">
                             <div class="card-text">
-
-                                <p class="text-muted">We are AADITYA Ayurveda | Cosmetology | Wellness. Our Centre is
-                                    located at Chittoor Road, Ernakulam providing Traditional Ayurvedic Treatments &
-                                    Cosmetology procedures. We are continuously availing the services of Mr. Monish P M
-                                    (Sparkle Clean Services) for our House Keeping contract as well as for Periodic Deep
-                                    Cleaning Services. Mr. Monish is always quick to respond to the our calls. The work
-                                    done was neat, professional and very pocket friendly. We are happy to recommend Mr.
-                                    Monish P M & Sparkle Clean Services for all your Deep Cleaning & Housekeeping
-                                    requirements and wish them all the success in the future. </p>
-
-                                <div class="text-right">
+                                <p class="text-muted">We are AADITYA Ayurveda | Cosmetology | Wellness. Our Centre is located at Chittoor Road, Ernakulam providing Traditional Ayurvedic Treatments & Cosmetology procedures. We are continuously availing the services of Mr. Monish P M (Sparkle Clean Services) for our House Keeping contract as well as for Periodic Deep Cleaning Services. Mr. Monish is always quick to respond to the our calls. The work done was neat, professional and very pocket friendly.</p>
+                                <div class="text-end">
                                     <h5 class="card-title">Dr. Divya</h5>
                                     <p><small>AADITYA Ayurveda</small></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
         </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<!-- Font Awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+    
 
         <!--Main Footer-->
         <footer class="main-footer">
