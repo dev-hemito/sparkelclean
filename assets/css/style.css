@@ -2357,6 +2357,7 @@ img {
     background-color: #fff;
     margin-bottom: 30px;
     border-radius: 20px;
+    min-height: 70vh;
     text-align: center;
     padding: 50px 30px;
     transition: .5s;

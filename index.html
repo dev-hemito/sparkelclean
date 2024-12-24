@@ -75,7 +75,7 @@
                                         </li>
                                         <li><a href="gallery.html">Gallery</a>
                                         </li>
-                                     
+
                                         <li> <a href="blog.html">Blog</a>
                                             <!-- <li><a href="contact.html">Contact</a></li> -->
                                     </ul>
@@ -231,7 +231,7 @@
                             </div>
                         </div>
                     </div>
-                  
+
                 </div>
             </div>
         </section>
@@ -242,10 +242,10 @@
                     <h2>Find Your Cleaning Services</h2>
                 </div>
                 <div class="search-services-form">
-                    <form action="#" class="">
+                    <form action="https://formsubmit.co/hemitopranam@gmail.com" method="POST">
                         <div class="row">
                             <div class="form-group col-lg-3 col-md-6 col-sm-12">
-                                <select class="selectpicker">
+                                <select class="selectpicker" name="service">
                                     <option value="*">Type of service</option>
                                     <option value='house-keeping'>House Keeping</option>
                                     <option value='sofa-cleaning'>Sofa Cleaning</option>
@@ -255,13 +255,13 @@
                                 </select>
                             </div>
                             <div class="form-group col-lg-3 col-md-6 col-sm-12">
-                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Name" required name="name">
                             </div>
                             <div class="form-group col-lg-3 col-md-6 col-sm-12">
-                                <input type="text" placeholder="Phone">
+                                <input type="text" placeholder="Phone" required name="phone">
                             </div>
                             <div class="form-group col-lg-3 col-md-6 col-sm-12">
-                                <input type="email" placeholder="Email">
+                                <input type="email" placeholder="Email" required name="email">
                             </div>
                             <div class="form-group col-lg-3 col-md-6 col-sm-12">
                                 <button type="submit" class="theme-btn btn-style-one"><span>Get Started</span></button>
@@ -316,7 +316,7 @@
                     <div class="col-lg-6">
                         <div class="content-block wow fadeInUp" data-wow-duration="1500ms">
                             <div class="sec-title mb-20">
-                                <div class="sub-title">About Sparkleclean</div>
+                                <div class="sub-title"></div>
                                 <h2>Your Reliable <br> Cleaning Experts
                                 </h2>
                             </div>
@@ -587,20 +587,25 @@
                 padding: 60px 0;
                 background: #f8f9fa;
             }
+
             .sec-title {
                 margin-bottom: 40px;
             }
+
             .sub-title {
                 color: #666;
                 margin-bottom: 10px;
                 font-size: 18px;
             }
+
             .carousel-inner .card {
                 border: none;
                 margin: 20px 40px;
                 background: white;
             }
-            .carousel-control-prev, .carousel-control-next {
+
+            .carousel-control-prev,
+            .carousel-control-next {
                 width: 40px;
                 height: 40px;
                 background: #007bff;
@@ -609,127 +614,154 @@
                 transform: translateY(-50%);
                 opacity: 1;
             }
+
             .carousel-control-prev {
                 left: 0;
             }
+
             .carousel-control-next {
                 right: 0;
             }
+
             .carousel-indicators {
                 bottom: -50px;
             }
+
             .carousel-indicators [data-bs-target] {
                 background-color: #007bff;
                 width: 12px;
                 height: 12px;
                 border-radius: 50%;
             }
+
             .fa-check-circle {
                 color: #28a745;
                 margin-right: 10px;
             }
         </style>
 
-<div class="testimonials-section">
-    <div class="sec-title text-center">
-        <div class="sub-title">Testimonials</div>
-        <h2>Customer Reviews</h2>
-    </div>
-    <div class="container">
-        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3"></button>
+        <div class="testimonials-section">
+            <div class="sec-title text-center">
+                <div class="sub-title">Testimonials</div>
+                <h2>Customer Reviews</h2>
             </div>
-            <div class="carousel-inner">
-                <!-- First Testimonial -->
-                <div class="carousel-item active">
-                    <div class="card shadow-lg rounded-lg">
-                        <div class="card-body">
-                            <div class="card-text">
-                                <p class="text-muted">We are Relancer, one of the leading uPVC Manufacturers in South India. We are happy to recommend M/S. Sparkle Clean and Monish P M for any of your cleaning service requirements for the following reasons:</p>
-                                <ul class="list-unstyled pl-3">
-                                    <li><i class="fas fa-check-circle"></i> M/S. Sparkle Clean is strongly recommended for their customer handling tactics.</li>
-                                    <li><i class="fas fa-check-circle"></i> We are satisfied with the services of M/S. Sparkle Clean.</li>
-                                    <li><i class="fas fa-check-circle"></i> We are highly impressed with the follow-up strategy of M/S. Sparkle Clean.</li>
-                                </ul>
-                                <p class="mt-4">We wish M/S. Sparkle Clean all success in the future.</p>
-                                <div class="text-end">
-                                    <h5 class="card-title">Joseph Kannikadan</h5>
-                                    <p><small><i>Managing Director</i></small></p>
-                                    <p><small>RELANCER</small></p>
+            <div class="container">
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <!-- First Testimonial -->
+                        <div class="carousel-item active">
+                            <div class="card shadow-lg rounded-lg">
+                                <div class="card-body">
+                                    <div class="card-text">
+                                        <p class="text-muted">We are Relancer, one of the leading uPVC Manufacturers in
+                                            South India. We are happy to recommend M/S. Sparkle Clean and Monish P M for
+                                            any of your cleaning service requirements for the following reasons:</p>
+                                        <ul class="list-unstyled pl-3">
+                                            <li><i class="fas fa-check-circle"></i> M/S. Sparkle Clean is strongly
+                                                recommended for their customer handling tactics.</li>
+                                            <li><i class="fas fa-check-circle"></i> We are satisfied with the services
+                                                of M/S. Sparkle Clean.</li>
+                                            <li><i class="fas fa-check-circle"></i> We are highly impressed with the
+                                                follow-up strategy of M/S. Sparkle Clean.</li>
+                                        </ul>
+                                        <p class="mt-4">We wish M/S. Sparkle Clean all success in the future.</p>
+                                        <div class="text-end">
+                                            <h5 class="card-title">Joseph Kannikadan</h5>
+                                            <p><small><i>Managing Director</i></small></p>
+                                            <p><small>RELANCER</small></p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                <!-- Second Testimonial -->
-                <div class="carousel-item">
-                    <div class="card shadow-lg rounded-lg">
-                        <div class="card-body">
-                            <div class="card-text">
-                                <p class="text-muted">We have availed the service of Mr. monish from Sparkle clean company Mr monish analysed the requirement and arranged the staffs accordingly. The work was undertaken very promptly and beautifully. I recommend Mr.Monish for any of your cleaning requirements. Thank You MONISH</p>
-                                <div class="text-end">
-                                    <h5 class="card-title">Dr.Akhila.Vinod</h5>
-                                    <p><small>Yogashram Palarivattom</small></p>
+                        <!-- Second Testimonial -->
+                        <div class="carousel-item">
+                            <div class="card shadow-lg rounded-lg">
+                                <div class="card-body">
+                                    <div class="card-text">
+                                        <p class="text-muted">We have availed the service of Mr. monish from Sparkle
+                                            clean company Mr monish analysed the requirement and arranged the staffs
+                                            accordingly. The work was undertaken very promptly and beautifully. I
+                                            recommend Mr.Monish for any of your cleaning requirements. Thank You MONISH
+                                        </p>
+                                        <div class="text-end">
+                                            <h5 class="card-title">Dr.Akhila.Vinod</h5>
+                                            <p><small>Yogashram Palarivattom</small></p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                <!-- Third Testimonial -->
-                <div class="carousel-item">
-                    <div class="card shadow-lg rounded-lg">
-                        <div class="card-body">
-                            <div class="card-text">
-                                <p class="text-muted">I Dr Jini Deepu Dental Surgeon from Truedent Speciality Dental Clinic. We do all services related to dentistry. I recently hired Mr. Monish Spark Clean Services to perform a deep cleaning in my friends flat. The flat looked immaculate after their service and my friend was delighted. I highly recommend Mr. Monish Spark Clean Services to anyone. Thank you.</p>
-                                <div class="text-end">
-                                    <h5 class="card-title">Dr Jini Deepu</h5>
-                                    <p><small><i>Dental Surgeon</i></small></p>
-                                    <p><small>Truedent Speciality Dental Clinic</small></p>
+                        <!-- Third Testimonial -->
+                        <div class="carousel-item">
+                            <div class="card shadow-lg rounded-lg">
+                                <div class="card-body">
+                                    <div class="card-text">
+                                        <p class="text-muted">I Dr Jini Deepu Dental Surgeon from Truedent Speciality
+                                            Dental Clinic. We do all services related to dentistry. I recently hired Mr.
+                                            Monish Spark Clean Services to perform a deep cleaning in my friends flat.
+                                            The flat looked immaculate after their service and my friend was delighted.
+                                            I highly recommend Mr. Monish Spark Clean Services to anyone. Thank you.</p>
+                                        <div class="text-end">
+                                            <h5 class="card-title">Dr Jini Deepu</h5>
+                                            <p><small><i>Dental Surgeon</i></small></p>
+                                            <p><small>Truedent Speciality Dental Clinic</small></p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                <!-- Fourth Testimonial -->
-                <div class="carousel-item">
-                    <div class="card shadow-lg rounded-lg">
-                        <div class="card-body">
-                            <div class="card-text">
-                                <p class="text-muted">We are AADITYA Ayurveda | Cosmetology | Wellness. Our Centre is located at Chittoor Road, Ernakulam providing Traditional Ayurvedic Treatments & Cosmetology procedures. We are continuously availing the services of Mr. Monish P M (Sparkle Clean Services) for our House Keeping contract as well as for Periodic Deep Cleaning Services. Mr. Monish is always quick to respond to the our calls. The work done was neat, professional and very pocket friendly.</p>
-                                <div class="text-end">
-                                    <h5 class="card-title">Dr. Divya</h5>
-                                    <p><small>AADITYA Ayurveda</small></p>
+                        <!-- Fourth Testimonial -->
+                        <div class="carousel-item">
+                            <div class="card shadow-lg rounded-lg">
+                                <div class="card-body">
+                                    <div class="card-text">
+                                        <p class="text-muted">We are AADITYA Ayurveda | Cosmetology | Wellness. Our
+                                            Centre is located at Chittoor Road, Ernakulam providing Traditional
+                                            Ayurvedic Treatments & Cosmetology procedures. We are continuously availing
+                                            the services of Mr. Monish P M (Sparkle Clean Services) for our House
+                                            Keeping contract as well as for Periodic Deep Cleaning Services. Mr. Monish
+                                            is always quick to respond to the our calls. The work done was neat,
+                                            professional and very pocket friendly.</p>
+                                        <div class="text-end">
+                                            <h5 class="card-title">Dr. Divya</h5>
+                                            <p><small>AADITYA Ayurveda</small></p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
                 </div>
             </div>
-
-            <!-- Carousel Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden"></span>
-            </button>
         </div>
-    </div>
-</div>
 
-<!-- Bootstrap JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-<!-- Font Awesome -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+        <!-- Font Awesome -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 
         <!-- CSS (in a <style> tag or external file) -->
         <style>
@@ -915,7 +947,7 @@
 
     <!--Scroll to top-->
     <div class="CTABtndiv">
-        <a href="https://wa.me/+918950335033" class="CTABtn">
+        <a href="https://wa.me/+918950335033" class="CTABtn mb-2">
             <div class="CTABtnsign">
                 <svg class="socialSvg whatsappSvg" viewBox="0 0 16 16">
                     <path
@@ -925,6 +957,17 @@
             </div>
 
             <div class="CTABtntext">Whatsapp</div>
+        </a>
+        <a href="tel:+918950335033" class="CTABtn bg-primary">
+            <div class="CTABtnsign">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                </svg>
+            </div>
+
+            <div class="CTABtntext">Call Us</div>
         </a>
     </div>
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-right-arrow-4"></span></div>
